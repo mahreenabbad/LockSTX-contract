@@ -21,7 +21,7 @@
     amount: uint,
   }
 )
-
+;;public var
 (define-data-var total-unlocked-stx uint u0)
 ;; Track unlocks by lock-id with full details
 (define-map stx-unlocks
